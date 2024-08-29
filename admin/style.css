@@ -1,0 +1,131 @@
+.bg-beige {
+	background-color: beige;
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: palevioletred;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px; 
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: palevioletred;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: palevioletred;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: palevioletred;
+}
+.footer{
+    font-size: 20px;
+	background-color:beige;
+	font-weight: italic; 
+}
+* {
+	font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-section h3 {
+    color: #343a40;
+    font-size: 80px;
+
+}
+.admin-body {
+	background-color: pink;
+	background-repeat: repeat;
+}
+.about-section p {
+    color: #343a40;
+    font-size: 50px;
+}
+.section-padding {
+	padding: 100px 0;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+.middle-align {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+   }
+.toast {
+    position: fixed;
+    top: 20px; 
+    right: 20px;
+    z-index: 1000;
+}
+.toast-header {
+    background-color: pink; 
+    color: #ffffff; 
+}
+.toast-body {
+    background-color: #ffffff; 
+    color: #343a40; 
+}
+.pengguna-body {
+	background-color: pink;
+	background-repeat: repeat;
+}
+#About-Us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; 
+}
+.about-section h2 {
+    color: #343a40;
+    font-size: 40px;
+}
+
+.about-section p {
+    color: #343a40;
+    font-size: 20px;
+}
+.card-item {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .card-img-top {
+    height: 60%;
+    object-fit: cover;
+ }

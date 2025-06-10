@@ -39,6 +39,9 @@
                 <a class="nav-link menu-produk" href="produk.php">Produk</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link menu-transaksi" href="transaksi.php">Transaksi</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="logout.php">Logout</a>
               </li>
             </ul>

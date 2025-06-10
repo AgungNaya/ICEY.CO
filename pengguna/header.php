@@ -46,6 +46,12 @@
                   ?>
                 </ul>
                 </li>
+                <li class="nav-item">
+                <a class="nav-link" href="cart.php">Cart</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-histori" href="histori.php">Order</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="../admin/index.php">Login</a>
               </li>

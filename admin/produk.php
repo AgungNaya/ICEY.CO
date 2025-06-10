@@ -14,6 +14,7 @@
             <th class="text-center">ID</th>
             <th class="text-center">Kategori</th>
             <th class="text-center">Nama Produk</th>
+            <th class="text-center">Harga</th>
             <th class="text-center">Detail</th>
             <th class="text-center">Gambar</th>
             <th class="text-center">Option</th>
@@ -26,6 +27,7 @@
             echo '<td class="text-center">' .$result['id']. '</td>';
             echo '<td>' .$result['kategori']. '</td>';
             echo '<td>' .$result['nama']. '</td>';
+            echo '<td>Rp ' .number_format($result['harga'], 0, ',', '.'). '</td>';
             echo '<td>' .$result['detail']. '</td>';
             echo '<td class="text-center"><img src="' .$result['gambar']. '" width="100px"></td>';
             echo '<td class="text-center"> 
